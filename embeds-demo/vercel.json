@@ -10,6 +10,10 @@
         {
           "key": "Content-Security-Policy",
           "value": "frame-ancestors *"
+        },
+        {
+          "key": "Set-Cookie",
+          "value": "name=value; SameSite=None; Secure"
         }
       ]
     }
